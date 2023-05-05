@@ -19,7 +19,7 @@ Details are given in MANUAL.
   -'Fit Curve' fits the curve and in pop-up windows gives the fit results and goodness of fit.
 
 
-
+----------------------------------------------------------------------------------------------
 Copyright (c) 2023 Mateo Forjan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
