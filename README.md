@@ -14,6 +14,7 @@ Additionally, a gaussian and first two derivatives are summed with mentioned con
 Residuals of fitting and subtracted coherent artifact can be explored.
 
 Details are given in MANUAL.
+
   -Choosing the 'wavelength to fit' plots a time-cut at chosen wavelength.
   -Changing 'Nr. of exponentials' and initial coefficients plots the initial guess for a fit.
   -'Fit Curve' fits the curve and in pop-up windows gives the fit results and goodness of fit.
