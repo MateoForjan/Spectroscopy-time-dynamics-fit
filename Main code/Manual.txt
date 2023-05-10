@@ -1,1 +1,33 @@
-How to use this tool:
+*** MANUAL for Spectroscopy-time-dynamics-fit ***
+
+1) Loading a file
+  - LOAD FILE
+  - Choose a 2d matrix file, a time-step file and a wavelength file, respectively. Order of choice is important.
+  
+2) SVD ANALYSIS
+  - Singular values decomposition is done automatically after loading a file
+  - By changing the 'Nr. of SVD values' different SVD spectra and dynamics are plotted
+  
+3) Axes limits
+  - Choose the proper time, wavelength and z-axis scales.
+  - Figures refresh automatically
+  
+4) Fit parameters
+  - Function for fitting is the convolution of gaussian function (IRF) with certain number of exponential functions (user choice)
+  - Additionally part for coherent artifact is added as the sum of gaussian and its first two derivatives
+  - A1, A2, A3 are amplitudes of coherent artifact functions
+  - B's are amplitudes of exponential functions
+  - Tau's are values of exponential decay constants
+  - c is time offset (x-axis offset)
+  - s is the IRF FWHM / 2.35
+  
+******************************************************************************************************
+Fitting procedure:
+  1 - Choose the 'Wavelength to fit'
+  2 - Choose 'Nr. of exponentials'
+  3 - Set fit parameters (A's, B's, Tau's, c, s) and its lover and upper bounds
+  4 - Initial guess for fitting is shown in the lower right panel drawn in red color over measured time dynamics (blue)
+  5 - Press FIT CURVE. After the fitting is done pop_up windows are shown with resulting fit parameters and goodness of fit
+  6 - Fit result is plotted over the time dynamics instead of the initial guess. Can be studied by changing axes limits
+  7 - By pressing SHOW RESIDUAL and SUBTRACTED ARTIFACT fit results can be additionally studied
+******************************************************************************************************
